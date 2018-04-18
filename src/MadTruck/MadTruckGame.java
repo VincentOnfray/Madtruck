@@ -125,7 +125,7 @@ public class MadTruckGame {
             }
 
             else {
-                System.out.println("You Casually Crashed\n    ___     ___\n __/__O\\___ |||\n=|_________||||\n   O     O  |||\n---------------");
+                System.out.println("You Casual Crashed\n    ___     ___\n __/__O\\___ |||\n=|_________||||\n   O     O  |||\n---------------");
                 truck.setY(-1);
 
 

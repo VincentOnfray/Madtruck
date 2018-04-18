@@ -27,7 +27,10 @@ public class MadTruck {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
         Attempt.play(road, LINES, COLUMNS, XORIGIN, YORIGIN, SPRITE, FOREVIEW, BACKVIEW, DELAY, TRAIL);
+
+
     }
 }
 
