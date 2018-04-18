@@ -57,7 +57,7 @@ public class MadTruckGame {
         Truck truck = new Truck(SPRITE, X, Y); //le vehicule
         int L = 0;      //N° Ligne
         int C = 0;      //N° colonne
-        short fail = 0; //Indicateur d'echec
+        boolean fail = false; //Indicateur d'echec
         String print;
 
 
@@ -67,7 +67,7 @@ public class MadTruckGame {
             print = "";
             L = plancher(0, truck.getY()-FOREVIEW);
 
-            if ( fail != 1 ) {
+            if ( !fail ) {
                 truck.setY(truck.getY()-1);
 
                 //If déterminant la collision ou non
@@ -80,7 +80,7 @@ public class MadTruckGame {
 
                 else
                     {
-                    fail = 1;
+                    fail = true;
                     }
 
 

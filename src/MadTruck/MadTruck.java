@@ -3,8 +3,8 @@ package MadTruck;
 import java.io.IOException;
 
 public class MadTruck {
-    //private static String FILE = "C:\\Users\\blenn\\Desktop\\eXia\\UE5\\road.txt";
-    private static String FILE = "C:\\Users\\blenn\\Desktop\\eXia\\UE5\\roady.txt";
+    private static String FILE = "C:\\Users\\blenn\\Desktop\\eXia\\UE5\\road.txt";
+    //private static String FILE = "C:\\Users\\blenn\\Desktop\\eXia\\UE5\\roady.txt";
     private static int LINES = 31;
     private static int COLUMNS = 12;
     private static int XORIGIN = 3;
