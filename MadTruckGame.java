@@ -10,7 +10,7 @@ public class MadTruckGame {
 
 
     public void build(String FILE, Map road, int LINES, int COLUMNS) throws IOException {
-        //"build" permet de charger la carte dans un tableau à double entree
+        //"build" permet de charger la carte dans un tableau à double entree dans un objet "Map"
 
         int asci = 0;
         FileReader fr = null;
@@ -52,7 +52,7 @@ public class MadTruckGame {
     }
 
     public void play(Map road, int LINES, int COLUMNS, int X, int Y, char SPRITE, int FOREVIEW, int BACKVIEW, int DELAY) {
-
+            //"Play" gère la mise à jour du tableau en fonction du temps (inputs non fonctionnels), le scrolling, ainsi que la réussite ou l'echec.
 
         Truck truck = new Truck(SPRITE, X, Y); //le vehicule
         int nolignemax;
@@ -62,21 +62,19 @@ public class MadTruckGame {
         String print;
 
 
-        while (truck.Y > 0) {
+        while (truck.getY() > 0) {
             System.out.print("\n\n\n\n\n\n\n\n");
             print = "";
-            L = truck.Y-FOREVIEW;
-            if (L<0){L=0;}
-            else{ }
+            L = plancher(0, truck.getY()-FOREVIEW);
 
             if ( fail != 1 ) {
-                truck.Y--;
+                truck.setY(truck.getY()-1);
 
                 //If déterminant la collision ou non
-                if ( road.grid[truck.Y][truck.X] == ' ' )
+                if ( road.grid[truck.getY()][truck.getX()] == ' ' )
                     {
-                    road.grid[truck.Y+1][truck.X] = ' ';
-                    road.grid[truck.Y][truck.X] = SPRITE;
+                    road.grid[truck.getY()+1][truck.getX()] = ' ';
+                    road.grid[truck.getY()][truck.getX()] = truck.Sprite;
 
                     }
 
@@ -85,12 +83,10 @@ public class MadTruckGame {
                     fail = 1;
                     }
 
-                //Charge du tableau dans le stringbuilder "print"
-                nolignemax = truck.Y+BACKVIEW; //nolignemax designe le numero de la ligne la plus basse sur l'ecran affichée, le
-                if(nolignemax > LINES){nolignemax = LINES;}
 
-                    else{}
-                while (L < nolignemax) {
+                //Charge des lignes que l'on veut afficher dans le stringbuilder "print",
+
+                while (L < plafonnage(LINES, truck.getY()+BACKVIEW)) {
 
                     C = 0;
                     while (C < COLUMNS) {
@@ -104,11 +100,12 @@ public class MadTruckGame {
                 }
                 System.out.println(print);
 
-            } else if ( truck.Y == 0 ) {
+            } else if ( truck.getY() == 0 ) {
                 System.out.println("You won the battle, but not the war");
-            } else {
+            }
+            else {
                 System.out.println("You Filthy Casual");
-                truck.Y = -1;
+                truck.setY(-1);
 
 
 
@@ -136,7 +133,16 @@ public class MadTruckGame {
         else{
             return nb;
         }
-    }
+    } //permet de s'assurer que le no de ligne ne passe pas le MAX
+
+    private int plancher(int MIN, int nb){
+        if (nb < MIN){
+            return MIN;
+        }
+        else{
+            return nb;
+        }
+    }//permet de s'assurer que le no de ligne ne passe pas le MIN
 
 }
 
