@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <list default="true" id="153aca6b-7eeb-4930-9045-df0a44125e81" name="Default" comment="">
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29,6 +30,9 @@
 =======
     <list default="true" id="153aca6b-7eeb-4930-9045-df0a44125e81" name="Default" comment="" />
 >>>>>>> parent of 6060f8d... modifs mineures (comm...)
+=======
+    <list default="true" id="153aca6b-7eeb-4930-9045-df0a44125e81" name="Default" comment="" />
+>>>>>>> parent of 6060f8d... modifs mineures (comm...)
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,8 +47,13 @@
         <entry file="file://$PROJECT_DIR$/src/MadTruck/MadTruck.java">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="327">
               <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+=======
+            <state relative-caret-position="136">
+              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+>>>>>>> parent of 6060f8d... modifs mineures (comm...)
 =======
             <state relative-caret-position="136">
               <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
@@ -59,6 +68,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="330">
               <caret line="49" selection-start-line="49" selection-end-line="49" />
 =======
@@ -69,6 +79,10 @@
             <state relative-caret-position="1037">
               <caret line="104" column="48" selection-start-line="104" selection-start-column="48" selection-end-line="104" selection-end-column="48" />
 >>>>>>> parent of d31601e... plus de test, pas de changement réel
+=======
+            <state relative-caret-position="-714">
+              <caret line="60" column="21" lean-forward="true" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+>>>>>>> parent of 6060f8d... modifs mineures (comm...)
 =======
             <state relative-caret-position="-714">
               <caret line="60" column="21" lean-forward="true" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
@@ -199,6 +213,7 @@
 <<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/MadTruck/MadTruck.java" />
         <option value="$PROJECT_DIR$/src/MadTruck/Map.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/MadTruck/Truck.java" />
         <option value="$PROJECT_DIR$/src/MadTruck/Element.java" />
         <option value="$PROJECT_DIR$/src/MadTruck/MotionlessElement.java" />
@@ -218,6 +233,10 @@
 =======
 >>>>>>> parent of d31601e... plus de test, pas de changement réel
 =======
+        <option value="$PROJECT_DIR$/src/MadTruck/MadTruckGame.java" />
+>>>>>>> parent of 6060f8d... modifs mineures (comm...)
+=======
+        <option value="$PROJECT_DIR$/src/MadTruck/MadTruck.java" />
         <option value="$PROJECT_DIR$/src/MadTruck/MadTruckGame.java" />
 >>>>>>> parent of 6060f8d... modifs mineures (comm...)
       </list>
@@ -367,6 +386,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" weight="0.24827586" />
 =======
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24827586" />
@@ -374,6 +394,8 @@
 =======
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24827586" />
 >>>>>>> parent of d31601e... plus de test, pas de changement réel
+=======
+>>>>>>> parent of 6060f8d... modifs mineures (comm...)
 =======
 >>>>>>> parent of 6060f8d... modifs mineures (comm...)
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -403,6 +425,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/MadTruck/Map.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -440,6 +463,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> parent of 6060f8d... modifs mineures (comm...)
 =======
 >>>>>>> parent of 6060f8d... modifs mineures (comm...)
     <entry file="file://$PROJECT_DIR$/src/MadTruck/MadTruck.java">
@@ -824,6 +849,7 @@
     </entry>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/MadTruck/Ditch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -842,6 +868,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> parent of 6060f8d... modifs mineures (comm...)
 =======
 >>>>>>> parent of 6060f8d... modifs mineures (comm...)
     <entry file="file://$PROJECT_DIR$/src/MadTruck/Map.java">
@@ -867,6 +895,7 @@
     <entry file="file://$PROJECT_DIR$/src/MadTruck/MadTruck.java">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="327">
           <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
 =======
@@ -882,11 +911,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+=======
+        <state relative-caret-position="136">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+>>>>>>> parent of 6060f8d... modifs mineures (comm...)
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MadTruck/MadTruckGame.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="330">
           <caret line="49" selection-start-line="49" selection-end-line="49" />
 =======
@@ -902,6 +936,10 @@
         <state relative-caret-position="1037">
           <caret line="104" column="48" selection-start-line="104" selection-start-column="48" selection-end-line="104" selection-end-column="48" />
 >>>>>>> parent of d31601e... plus de test, pas de changement réel
+=======
+        <state relative-caret-position="-714">
+          <caret line="60" column="21" lean-forward="true" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+>>>>>>> parent of 6060f8d... modifs mineures (comm...)
 =======
         <state relative-caret-position="-714">
           <caret line="60" column="21" lean-forward="true" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
