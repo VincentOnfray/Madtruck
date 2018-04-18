@@ -55,7 +55,6 @@ public class MadTruckGame {
             //"Play" gère la mise à jour du tableau en fonction du temps (inputs non fonctionnels), le scrolling, ainsi que la réussite ou l'echec.
 
         Truck truck = new Truck(SPRITE, X, Y); //le vehicule
-        int nolignemax;
         int L = 0;      //N° Ligne
         int C = 0;      //N° colonne
         short fail = 0; //Indicateur d'echec
@@ -99,12 +98,10 @@ public class MadTruckGame {
                     L++;
                 }
                 System.out.println(print);
-
-            } else if ( truck.getY() == 0 ) {
-                System.out.println("You won the battle, but not the war");
             }
+
             else {
-                System.out.println("You Filthy Casual");
+                System.out.println("You Filthy Casual Crashed\n    ___     ___\n __/___\\___ |||\n=|_________||||\n   O     O  |||");
                 truck.setY(-1);
 
 
@@ -114,7 +111,7 @@ public class MadTruckGame {
 
             try {
 
-                Thread.sleep(500);
+                Thread.sleep(DELAY);
             } catch (InterruptedException e) {
                 e.printStackTrace();
 
@@ -122,7 +119,10 @@ public class MadTruckGame {
 
             }
         }
-        //System.out.println(truck.Y);
+        if ( truck.getY() == 0 ) {
+            System.out.println("You won the battle, but not the war\n      ___     \n   __/___\\___ \n~~=|_________|\n     O     O  ");
+        }
+        else{}
 
     }
 
