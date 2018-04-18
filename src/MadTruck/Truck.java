@@ -1,36 +1,36 @@
 package MadTruck;
 
-public class Truck {
-    public final char Sprite;
-    private int X;
+public class Truck extends Element{
     private int Y;
+    private int X;
 
-    public  Truck(char Sprite, int X, int Y){
-        this.Sprite = Sprite;
-        this.X = X;
+    public  Truck(char sprite, int Y, int X){
+        super(sprite);
         this.Y = Y;
+        this.X = X;
+
 
     }
-
-    public Truck(){
-        Sprite = 'H';
-        X = 0;
-        Y = 0;
-    }
-
-    public int getX() {
-        return X;
-    }
-
-    public void setX(int x) {
-        X = x;
-    }
-
-    public int getY() {
-        return Y;
+    public void setX(int X) {
+        this.X = X;
     }
 
     public void setY(int y) {
-        Y = y;
+
+        this.Y = y;
     }
+
+    public int getX() {
+
+        return X;
+    }
+
+    public int getY() {
+
+        return Y;
+    }
+
+
+
+
 }

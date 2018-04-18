@@ -9,6 +9,7 @@ import java.io.IOException;
 public class MadTruckGame {
 
 
+
     public void build(String FILE, Map road, int LINES, int COLUMNS) throws IOException {
         //"build" permet de charger la carte dans un tableau à double entree dans un objet "Map"
 
@@ -35,12 +36,34 @@ public class MadTruckGame {
                 asci = br.read();
 
 
-                road.setGrid(l, c, (char)asci);
+             switch ((char)asci){
+                 case ' ':
+                     road.setGrid(l,c, new Macadam());
+                     break;
+                 case 'X':
+                     road.setGrid(l,c,new RoadBlock());
+                     break;
+                 case'|':
+                     road.setGrid(l,c,new Ditch());
+                     break;
+                 case'\n':
 
-                miseenforme.append((char) asci);
+
+
+
+                 default:
+                     road.setGrid(l,c, new HorsPiste());
+
+
+
+             }
+
+
 
 
                 c++;
+
+
 
 
             }
@@ -54,7 +77,7 @@ public class MadTruckGame {
     public void play(Map road, int LINES, int COLUMNS, int X, int Y, char SPRITE, int FOREVIEW, int BACKVIEW, int DELAY, char TRAIL) {
             //"Play" gère la mise à jour du tableau en fonction du temps (inputs non fonctionnels), le scrolling, ainsi que la réussite ou l'echec.
 
-        Truck truck = new Truck(SPRITE, X, Y); //le vehicule
+        Truck truck = new Truck(SPRITE, Y, X); //le vehicule
         int L = 0;      //N° Ligne
         int C = 0;      //N° colonne
         boolean fail = false; //Indicateur d'echec
@@ -70,19 +93,19 @@ public class MadTruckGame {
             if ( !fail ) {
                 truck.setY(truck.getY()-1);
 
-                //If déterminant la collision ou non
-                if ( road.getGrid(truck.getY(),truck.getX()) == ' ' )
+                /*If déterminant la collision ou non
+                if ( road.getGrid(truck.getY(),truck.getX()).getSprite() == ' ' )
                     {
-                    road.setGrid(truck.getY()+1, truck.getX(),TRAIL);
-                    road.setGrid(truck.getY(), truck.getX(),  truck.Sprite);
+                    road.setGrid(truck.getY()+1, truck.getX(),new Macadam());
+                    road.setGrid(truck.getY(), truck.getX(),  truck);
 
                     }
 
-                else
+               else
                     {
                     fail = true;
                     }
-
+*/
 
                 //Charge des lignes que l'on veut afficher dans le stringbuilder "print",
 
@@ -91,7 +114,7 @@ public class MadTruckGame {
                     C = 0;
                     while (C < COLUMNS) {
 
-                        print = print + road.getGrid(L,C);
+                        print = print + (road.getGrid(L,C)).getSprite();
 
                         C++;
                     }

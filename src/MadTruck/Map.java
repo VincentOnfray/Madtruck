@@ -1,20 +1,21 @@
 package MadTruck;
 
 public class Map {
-    private char [][] grid;
+    private Element [][] grid;
+
 
     public Map(){}
 
     public Map(int LINES, int COLUMNS){
-        this.grid = new char [LINES][COLUMNS];
+        this.grid = new Element [LINES][COLUMNS];
 
     }
 
-    public char getGrid(int Y, int X) {
+    public Element getGrid(int Y, int X) {
         return grid [Y][X];
     }
 
-    public void setGrid(int Y, int X, char sprite){
-        grid[Y][X] = sprite;
+    public void setGrid(int Y, int X, Element element){
+        grid[Y][X] = element;
     }
 }
