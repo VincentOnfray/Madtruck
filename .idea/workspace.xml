@@ -24,10 +24,11 @@
       <file leaf-file-name="MadTruckGame.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MadTruck/MadTruckGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="64" column="71" lean-forward="true" selection-start-line="64" selection-start-column="71" selection-end-line="64" selection-end-column="71" />
+            <state relative-caret-position="-714">
+              <caret line="60" column="21" lean-forward="true" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
               <folding>
                 <element signature="method#build#0;class#MadTruckGame#0" />
+                <element signature="e#1035#1080#0" />
                 <element signature="method#plafonnage#0;class#MadTruckGame#0" />
                 <element signature="method#plancher#0;class#MadTruckGame#0" />
               </folding>
@@ -98,7 +99,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="width" value="1455" />
     <option name="height" value="1040" />
@@ -228,7 +229,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -238,7 +238,7 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24827586" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24827586" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -263,7 +263,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MadTruck/MadTruckGame.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="12" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -280,6 +288,7 @@
           <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
           <folding>
             <element signature="method#build#0;class#MadTruckGame#0" />
+            <element signature="e#1035#1080#0" />
             <element signature="method#plafonnage#0;class#MadTruckGame#0" />
             <element signature="method#plancher#0;class#MadTruckGame#0" />
           </folding>
@@ -327,6 +336,7 @@
           <caret line="53" column="131" selection-start-line="53" selection-start-column="131" selection-end-line="53" selection-end-column="131" />
           <folding>
             <element signature="method#build#0;class#MadTruckGame#0" />
+            <element signature="e#1035#1080#0" />
             <element signature="method#plafonnage#0;class#MadTruckGame#0" />
             <element signature="method#plancher#0;class#MadTruckGame#0" />
           </folding>
@@ -374,6 +384,7 @@
           <caret line="108" selection-start-line="108" selection-end-line="108" />
           <folding>
             <element signature="method#build#0;class#MadTruckGame#0" />
+            <element signature="e#1035#1080#0" />
             <element signature="method#plafonnage#0;class#MadTruckGame#0" />
             <element signature="method#plancher#0;class#MadTruckGame#0" />
           </folding>
@@ -421,6 +432,7 @@
           <caret line="108" selection-start-line="108" selection-end-line="109" />
           <folding>
             <element signature="method#build#0;class#MadTruckGame#0" />
+            <element signature="e#1035#1080#0" />
             <element signature="method#plafonnage#0;class#MadTruckGame#0" />
             <element signature="method#plancher#0;class#MadTruckGame#0" />
           </folding>
@@ -489,6 +501,7 @@
           <caret line="83" column="35" lean-forward="true" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
           <folding>
             <element signature="method#build#0;class#MadTruckGame#0" />
+            <element signature="e#1035#1080#0" />
             <element signature="method#plafonnage#0;class#MadTruckGame#0" />
             <element signature="method#plancher#0;class#MadTruckGame#0" />
           </folding>
@@ -522,6 +535,7 @@
           <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
           <folding>
             <element signature="method#build#0;class#MadTruckGame#0" />
+            <element signature="e#1035#1080#0" />
             <element signature="method#plafonnage#0;class#MadTruckGame#0" />
             <element signature="method#plancher#0;class#MadTruckGame#0" />
           </folding>
@@ -555,6 +569,7 @@
           <caret line="71" column="29" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
           <folding>
             <element signature="method#build#0;class#MadTruckGame#0" />
+            <element signature="e#1035#1080#0" />
             <element signature="method#plafonnage#0;class#MadTruckGame#0" />
             <element signature="method#plancher#0;class#MadTruckGame#0" />
           </folding>
@@ -574,6 +589,7 @@
           <caret column="23" selection-start-column="23" selection-end-column="23" />
           <folding>
             <element signature="method#build#0;class#MadTruckGame#0" />
+            <element signature="e#1035#1080#0" />
             <element signature="method#plafonnage#0;class#MadTruckGame#0" />
             <element signature="method#plancher#0;class#MadTruckGame#0" />
           </folding>
@@ -625,10 +641,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MadTruck/MadTruckGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="64" column="71" lean-forward="true" selection-start-line="64" selection-start-column="71" selection-end-line="64" selection-end-column="71" />
+        <state relative-caret-position="-714">
+          <caret line="60" column="21" lean-forward="true" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
           <folding>
             <element signature="method#build#0;class#MadTruckGame#0" />
+            <element signature="e#1035#1080#0" />
             <element signature="method#plafonnage#0;class#MadTruckGame#0" />
             <element signature="method#plancher#0;class#MadTruckGame#0" />
           </folding>
