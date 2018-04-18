@@ -35,7 +35,7 @@ public class MadTruckGame {
                 asci = br.read();
 
 
-                road.grid[l][c] = (char) asci;
+                road.setGrid(l, c, (char)asci);
 
                 miseenforme.append((char) asci);
 
@@ -71,10 +71,10 @@ public class MadTruckGame {
                 truck.setY(truck.getY()-1);
 
                 //If déterminant la collision ou non
-                if ( road.grid[truck.getY()][truck.getX()] == ' ' )
+                if ( road.getGrid(truck.getY(),truck.getX()) == ' ' )
                     {
-                    road.grid[truck.getY()+1][truck.getX()] = ' ';
-                    road.grid[truck.getY()][truck.getX()] = truck.Sprite;
+                    road.setGrid(truck.getY()+1, truck.getX(),' ');
+                    road.setGrid(truck.getY(), truck.getX(),  truck.Sprite);
 
                     }
 
@@ -91,7 +91,7 @@ public class MadTruckGame {
                     C = 0;
                     while (C < COLUMNS) {
 
-                        print = print + road.grid[L][C];
+                        print = print + road.getGrid(L,C);
 
                         C++;
                     }

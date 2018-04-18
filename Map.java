@@ -1,7 +1,7 @@
 package MadTruck;
 
 public class Map {
-    public char [][] grid;
+    private char [][] grid;
 
     public Map(){}
 
@@ -10,5 +10,11 @@ public class Map {
 
     }
 
+    public char getGrid(int Y, int X) {
+        return grid [Y][X];
+    }
 
+    public void setGrid(int Y, int X, char sprite){
+        grid[Y][X] = sprite;
+    }
 }
