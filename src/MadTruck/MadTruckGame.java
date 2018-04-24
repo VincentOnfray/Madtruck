@@ -9,7 +9,6 @@ import java.io.IOException;
 public class MadTruckGame {
 
 
-
     public void build(String FILE, Map road, int LINES, int COLUMNS) throws IOException {
         //"build" permet de charger la carte dans un tableau à double entree dans un objet "Map"
 
@@ -36,34 +35,12 @@ public class MadTruckGame {
                 asci = br.read();
 
 
-             switch ((char)asci){
-                 case ' ':
-                     road.setGrid(l,c, new Macadam());
-                     break;
-                 case 'X':
-                     road.setGrid(l,c,new RoadBlock());
-                     break;
-                 case'|':
-                     road.setGrid(l,c,new Ditch());
-                     break;
-                 case'\n':
+                road.setGrid(l, c, (char)asci);
 
-
-
-
-                 default:
-                     road.setGrid(l,c, new HorsPiste());
-
-
-
-             }
-
-
+                miseenforme.append((char) asci);
 
 
                 c++;
-
-
 
 
             }
@@ -74,10 +51,10 @@ public class MadTruckGame {
         //System.out.println(road.grid[1][3]);
     }
 
-    public void play(Map road, int LINES, int COLUMNS, int X, int Y, char SPRITE, int FOREVIEW, int BACKVIEW, int DELAY, char TRAIL) {
+    public void play(Map road, int LINES, int COLUMNS, int X, int Y, char SPRITE, int FOREVIEW, int BACKVIEW, int DELAY) {
             //"Play" gère la mise à jour du tableau en fonction du temps (inputs non fonctionnels), le scrolling, ainsi que la réussite ou l'echec.
 
-        Truck truck = new Truck(SPRITE, Y, X); //le vehicule
+        Truck truck = new Truck(SPRITE, X, Y); //le vehicule
         int L = 0;      //N° Ligne
         int C = 0;      //N° colonne
         short fail = 0; //Indicateur d'echec
@@ -85,27 +62,26 @@ public class MadTruckGame {
 
 
         while (truck.getY() > 0) {
-            System.out.print("\n\n\n\n\n\n\n\n"); //solution de fortune
-
+            System.out.print("\n\n\n\n\n\n\n\n");
             print = "";
             L = plancher(0, truck.getY()-FOREVIEW);
 
             if ( fail != 1 ) {
                 truck.setY(truck.getY()-1);
 
-                /*If déterminant la collision ou non
-                if ( road.getGrid(truck.getY(),truck.getX()).getSprite() == ' ' )
+                //If déterminant la collision ou non
+                if ( road.getGrid(truck.getY(),truck.getX()) == ' ' )
                     {
-                    road.setGrid(truck.getY()+1, truck.getX(),new Macadam());
-                    road.setGrid(truck.getY(), truck.getX(),  truck);
+                    road.setGrid(truck.getY()+1, truck.getX(),' ');
+                    road.setGrid(truck.getY(), truck.getX(),  truck.Sprite);
 
                     }
 
-               else
+                else
                     {
                     fail = 1;
                     }
-*/
+
 
                 //Charge des lignes que l'on veut afficher dans le stringbuilder "print",
 
@@ -114,7 +90,7 @@ public class MadTruckGame {
                     C = 0;
                     while (C < COLUMNS) {
 
-                        print = print + (road.getGrid(L,C)).getSprite();
+                        print = print + road.getGrid(L,C);
 
                         C++;
                     }
@@ -125,7 +101,7 @@ public class MadTruckGame {
             }
 
             else {
-                System.out.println("You Casual Crashed\n    ___     ___\n __/__O\\___ |||\n=|_________||||\n   O     O  |||\n---------------");
+                System.out.println("You Filthy Casual Crashed\n    ___     ___\n __/__O\\___ |||\n=|_________||||\n   O     O  |||\n---------------");
                 truck.setY(-1);
 
 
