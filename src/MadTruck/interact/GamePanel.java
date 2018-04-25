@@ -58,7 +58,7 @@ public class GamePanel extends JPanel {
                 c.gridx = C;
                 c.gridy = L;
                 this.add(label, c);
-                
+
 
 
 

@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="153aca6b-7eeb-4930-9045-df0a44125e81" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MadTruck/interact/GamePanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MadTruck/MadTruck/contrôle/MadTruck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MadTruck/MadTruck/contrôle/MadTruck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MadTruck/MadTruck/contrôle/MadTruckGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MadTruck/MadTruck/contrôle/MadTruckGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MadTruck/MadTruck/interact/Fenetre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MadTruck/MadTruck/interact/Fenetre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MadTruck/MadTruck/interact/Output.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MadTruck/MadTruck/interact/Output.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MadTruck/MadTruck/showboard.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MadTruck/contrôle/MadTruck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MadTruck/contrôle/MadTruck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MadTruck/contrôle/MadTruckGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MadTruck/contrôle/MadTruckGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MadTruck/interact/Fenetre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MadTruck/interact/Fenetre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MadTruck/interact/Output.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MadTruck/interact/Output.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MadTruck/showboard.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MadTruck/MadTruck/MadTruck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MadTruck/MadTruck/MadTruckGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MadTruck/MadTruck/interact/GamePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MadTruck/MadTruck/interact/GamePanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MadTruck/MadTruck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MadTruck/MadTruckGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MadTruck/interact/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MadTruck/interact/GamePanel.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/src/MadTruck/interact/Output.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-28">
-              <caret line="29" column="35" lean-forward="true" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+              <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,14 +73,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GamePanel.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GamePanel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MadTruck/interact/GamePanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+            <state relative-caret-position="496">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="retour.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MadTruck/retour.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -198,7 +202,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1280" />
     <option name="width" value="650" />
     <option name="height" value="1040" />
@@ -253,7 +257,7 @@
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.STATE" value="right" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE" value="left" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MadTruck- Etape 4 Manque scrolling et input" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Madtruck/src/MadTruck" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -363,7 +367,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29655173" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29655173" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
@@ -419,42 +423,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MadTruck/contrôle/MadTruck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MadTruck/contrôle/MadTruckGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="108" selection-start-line="108" selection-end-line="109" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#plafonnage#0;class#MadTruckGame#0" />
-            <element signature="method#plancher#0;class#MadTruckGame#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MadTruck/interact/Input.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MadTruck/Modele/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MadTruck/Modele/Truck.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -733,7 +701,7 @@
     <entry file="file://$PROJECT_DIR$/src/MadTruck/interact/Output.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-28">
-          <caret line="29" column="35" lean-forward="true" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -775,13 +743,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../Madtruck/src/MadTruck/Element.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Madtruck/src/MadTruck/contrôle/MadTruck.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MadTruck/MadTruck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MadTruck/interact/GamePanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+        <state relative-caret-position="496">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MadTruck/retour.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>

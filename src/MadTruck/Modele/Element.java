@@ -1,33 +1,18 @@
-package MadTruck.Modele;
+package MadTruck;
 
 public class Element {
 
-    private char sprite;
-    private boolean permeability;
 
+    private static char sprite;
 
-
-    public Element(char sprite, boolean permeability) {
+    public Element(){}
+    public Element(char sprite){
         this.sprite = sprite;
-        this.permeability = permeability;
+
     }
 
-    public Element() {
-    }
-
-    public void setSprite(char sprite) {
-        this.sprite = sprite;
-    }
-
-    public char getSprite() {
-
+    public static char getSprite() {
         return sprite;
     }
-    public boolean getPermeability() {
-        return permeability;
-    }
 
-    public void setPermeability(boolean permeability) {
-        this.permeability = permeability;
-    }
 }
