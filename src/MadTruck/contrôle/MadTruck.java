@@ -3,13 +3,16 @@ package MadTruck.contrôle;
 import MadTruck.Modele.Map;
 import MadTruck.Modele.Truck;
 import MadTruck.interact.Fenetre;
+import MadTruck.interact.GamePanel;
 import MadTruck.interact.Output;
 
+import javax.swing.*;
+import java.awt.*;
 import java.io.IOException;
 
 public class MadTruck {
-    //private static String FILE = "C:\\Users\\blenn\\Desktop\\eXia\\UE5\\road.txt";
-    private static String FILE = "C:\\Users\\blenn\\Desktop\\eXia\\UE5\\roady.txt";
+    private static String FILE = "C:\\Users\\blenn\\Desktop\\eXia\\UE5\\road.txt";
+    //private static String FILE = "C:\\Users\\blenn\\Desktop\\eXia\\UE5\\roady.txt";
     private static int LINES = 31;
     private static int COLUMNS = 12;
     private static int XORIGIN = 3;
@@ -22,11 +25,15 @@ public class MadTruck {
 
 
     public static void main(String args[]) throws IOException {
+       // JPanel control = new JPanel(new GridBagLayout());
+
 
         Map road = new Map(LINES, COLUMNS);
         Truck truck = new Truck(SPRITE, XORIGIN, YORIGIN, road); //le vehicule
         Output output = new Output(); // le systeme d'output
-        Fenetre fenetre = new Fenetre();
+
+
+
 
 
 
@@ -40,7 +47,12 @@ public class MadTruck {
             e.printStackTrace();
         }
 
+        GamePanel game = new GamePanel(road,LINES,COLUMNS);
+
+        game.mapping(road, LINES, COLUMNS);
+        Fenetre fenetre = new Fenetre(game);
         Attempt.play(road, truck, output, LINES, COLUMNS, SPRITE, FOREVIEW, BACKVIEW, DELAY, fenetre);
+
 
 
     }

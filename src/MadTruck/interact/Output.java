@@ -27,7 +27,7 @@ public class Output {
         L++;
     }
                 System.out.println(print);
-        fenetre.setScreen(print);
+        //fenetre.setScreen(print);
 
 }
 

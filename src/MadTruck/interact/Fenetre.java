@@ -8,33 +8,29 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Fenetre extends JFrame implements ActionListener {
-    private JTextArea screen = new JTextArea();
-    private JTextArea feed = new JTextArea();
-    private JButton bouton = new JButton("test");
+    private JPanel control;
+    private GamePanel game;
 
 
-    public void setScreen(String string) {
-        this.screen.setText(string);
-    }
-    public String getScreen(){
-        return this.screen.getSelectedText();
-    }
-    public void setFeed(String string) {
-        this.feed.setText(string);
-    }
-    public String getFeed(){
-        return this.feed.getSelectedText();
+    public JPanel getControl() {
+        return control;
     }
 
+    public GamePanel getGame() {
+        return game;
+    }
 
-    public Fenetre(){
+    public Fenetre(GamePanel game){
         this.setTitle("MadTruck");
+        this.game = game;
         this.setSize(1000,1000);
-        //this.setVisible(true);
-        this.setLayout(new FlowLayout());
-        this.add(screen);
-        this.add(feed);
-        this.add(bouton);
+        this.setVisible(true);
+        this.game.setVisible(true);
+        //this.setLayout(new GridBagLayout());
+        this.add(game);
+
+        //this.add(game);
+
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 

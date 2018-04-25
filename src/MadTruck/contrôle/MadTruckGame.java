@@ -26,7 +26,7 @@ public class MadTruckGame {
             if ( !fail ) {
 
                 //If déterminant la collision ou non
-                if ( (road.getGrid(truck.getY()-1,truck.getX())).getPermeability() == true)
+                if ( (road.getGrid(truck.getY()-1,truck.getX())).getPermeability() )
                     {
                     truck.moveForth();
 
